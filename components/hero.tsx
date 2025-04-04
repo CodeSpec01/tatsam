@@ -11,7 +11,8 @@ export default function Hero() {
       <div
         className="absolute inset-0 z-0"
         style={{
-          backgroundImage: "url('https://images.unsplash.com/photo-1606819717115-9159c900370b?q=80&w=2070')",
+          backgroundImage:
+            "url('https://res.cloudinary.com/codespec/image/upload/v1743769418/bg.png')",
           backgroundSize: "cover",
           backgroundPosition: "center",
           filter: "brightness(0.3)",
@@ -32,8 +33,8 @@ export default function Hero() {
             </span>
           </h1>
           <p className="text-lg sm:text-xl text-gray-200 mb-8 max-w-2xl mx-auto">
-            Preserving and promoting Hindi literature and culture through events,
-            workshops, and creative expressions.
+            Preserving and promoting Hindi literature and culture through
+            events, workshops, and creative expressions.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button asChild size="lg" className="text-lg">
